@@ -47,4 +47,6 @@ end
 
 gem 'rails_12factor', group: :production
 gem 'pg', group: :production
-gem 'carrierwave'
+gem 'carrierwave' # upload images
+gem 'fog' # connect to Amazon S3
+gem 'figaro' # protect sensitive information when uploading to production server
