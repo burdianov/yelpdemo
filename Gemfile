@@ -51,3 +51,4 @@ gem 'carrierwave' # upload images
 gem 'fog' # connect to Amazon S3
 gem 'figaro' # protect sensitive information when uploading to production server
 gem 'mini_magick'
+gem 'devise'
